@@ -1,0 +1,20 @@
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+#print(students)
+aaron=(grades[0])
+aaron_value=sum(aaron)/len(aaron)
+#print(aaron_value)
+bilbo=(grades[1])
+bilbo_value=sum(bilbo)/len(bilbo)
+#print(bilbo_value)
+Johnny=(grades[2])
+Johnny_value=sum(Johnny)/len(Johnny)
+#print(Johnny_value)
+Khendrik=(grades[3])
+Khendrik_value=sum(Khendrik)/len(Khendrik)
+#print(Khendrik_value)
+Steve=(grades[4])
+Steve_value=sum(Steve)/len(Steve)
+#print(Steve_value)
+students_dict={'Aaron':aaron_value, 'Bilbo':bilbo_value,'Johnny':Johnny_value,'Khendrik':Khendrik_value,'Steve':Steve_value}
+print(students_dict)
